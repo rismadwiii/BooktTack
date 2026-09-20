@@ -1,0 +1,7 @@
+{
+  "name": "booktrack",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
