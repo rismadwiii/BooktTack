@@ -1,9 +1,17 @@
-import type { CapacitorConfig } from '@capacitor/cli';
+import type { CapacitorConfig } from '@capacitor/cli'
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'booktrack',
-  webDir: 'dist'
-};
+  appId: 'com.booktrack.app',
+  appName: 'BookTrack',
+  webDir: 'dist',
 
-export default config;
+  plugins: {
+    SystemBars: {
+      insetsHandling: 'css',
+      style: 'LIGHT',
+      hidden: false
+    }
+  }
+}
+
+export default config
